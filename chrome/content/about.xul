@@ -19,7 +19,7 @@
       <label value="v1.8" style="margin-left: 2px;" />
     </hbox>
     <label   value="net6degrees" />
-    <label class="text-link" value="http://net6degrees.com"
+    <label style="color: blue; text-decoration: underline; cursor: pointer;" value="http://net6degrees.com"
   onclick="var win = Components.classes['@mozilla.org/appshell/window-mediator;1']
       .getService(Components.interfaces.nsIWindowMediator)
       .getMostRecentWindow('navigator:browser');
