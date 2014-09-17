@@ -1098,6 +1098,17 @@ var prxSel = {
 		*/
 		,
 		/*********************************************************************************/
+		/*********************************************************************************/
+	
+		//About dialog
+		
+		function mproxy_goTomproxyAbout(){
+		window.openDialog("chrome://mproxy/content/dialogs/about.xul","mproxyAbout","centerscreen, chrome, modal");
+		}
+	
+		
+		/*********************************************************************************/
+		
 
 		openmproxyPrefs: function()
 			{
