@@ -20,6 +20,6 @@
     <label   value="net6degrees" />
     <label   value="http://net6degrees.com"
         style="color: #0000FF; text-decoration: underline; cursor: pointer;" 
-        onclick="open_tab('http://net6degrees.com');" />
+        onclick="window.open("http://net6degrees.com");" />
   </vbox>
 </dialog>
