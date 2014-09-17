@@ -13,19 +13,19 @@ toolbar[mode="icons"] #mproxy-element-button .toolbarbutton-text
 	
 #mproxy-element-button
 {
-	list-style-image: url("chrome://mproxy/skin/24mproxy.png");
+	list-style-image: url("chrome://mproxy/skin/NET6logo_25pxH.png");
 }
 
 
 toolbar[iconsize="small"] #mproxy-element-button 
 {
-	list-style-image: url("chrome://mproxy/skin/NET6logo_16pxH.png");
+	list-style-image: url("chrome://mproxy/skin/NET6logo_25pxH.png");
 }
 
 #mproxy-context-menu ,
 #mproxy-tools-menu
 {
-	list-style-image: url("chrome://mproxy/skin/NET6logo_16pxH.png");
+	list-style-image: url("chrome://mproxy/skin/NET6logo_25pxH.png");
 }
 
 #mproxy-context-proxylist
