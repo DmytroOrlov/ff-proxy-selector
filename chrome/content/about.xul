@@ -3,9 +3,10 @@
 <?xml-stylesheet href="chrome://communicator/skin/" type="text/css"?>
 <?xml-stylesheet href="proxybutton.css" type="text/css"?>
 
-<dialog buttons="accept"
-        id="aboutmproxy"
-        ondialogaccept="return true"
+<dialog buttons="cancel"
+		buttonlabelcancel="Close"
+		ondialogcancel="return true" 
+		id="aboutmproxy"
         title="About"
         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 
@@ -14,12 +15,14 @@
   <vbox style="width: 400px;">
     <image class="net6logo" />
     <hbox>
-      <label value="net6degrees Proxy Selector" style="font-weight: bold; margin-right: 2px;" /> 
+      <label value="Proxy Selector" style="font-weight: bold; margin-right: 2px;" /> 
       <label value="v1.8" style="margin-left: 2px;" />
     </hbox>
     <label   value="net6degrees" />
-    <label   value="http://net6degrees.com"
-        style="color: #0000FF; text-decoration: underline; cursor: pointer;" 
-        onclick="window.open("http://net6degrees.com");" />
+    <label class="text-link" value="http://net6degrees.com"
+  onclick="var win = Components.classes['@mozilla.org/appshell/window-mediator;1']
+      .getService(Components.interfaces.nsIWindowMediator)
+      .getMostRecentWindow('navigator:browser');
+    win.openUILinkIn('http://net6degrees.com', 'tab');"/>
   </vbox>
 </dialog>
