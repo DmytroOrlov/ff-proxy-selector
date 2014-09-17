@@ -21,7 +21,6 @@
 			<menuitem id="element_isp" label="&common.manage.label;" accesskey="&common.manage.key;" oncommand="prxSel.openProxyManager();" class="menuitem-iconic" />
 			<menuseparator />
 			<menuitem id="element_options" label="&common.preferences.label;" accesskey="&common.preferences.key;" oncommand="prxSel.openmproxyPrefs();" class="menuitem-iconic" />
-			<menuseparator />
 			<menuitem label="About" accesskey="" oncommand="prxSel.mproxy_goTomproxyAbout();" />
 		</menupopup>
 		</toolbarbutton>

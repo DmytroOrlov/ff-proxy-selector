@@ -1102,11 +1102,11 @@ var prxSel = {
 	
 		//About dialog
 		
-		function mproxy_goTomproxyAbout(){
+		mproxy_goTomproxyAbout: function (){
 		window.openDialog("chrome://mproxy/content/dialogs/about.xul","mproxyAbout","centerscreen, chrome, modal");
 		}
 	
-		
+		,
 		/*********************************************************************************/
 		
 
